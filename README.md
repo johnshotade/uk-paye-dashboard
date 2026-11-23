@@ -6,7 +6,7 @@ An interactive Tableau dashboard built from official HMRC PAYE Real Time Informa
 
 **[View the live dashboard on Tableau Public](https://public.tableau.com/app/profile/john.shotade/viz/UKPayrollTrends20142026/UKPayrollTrends)**
 
-![Dashboard screenshot](images/dashboard.png)
+[![Dashboard screenshot](https://public.tableau.com/static/images/UK/UKPayrollTrends20142026/UKPayrollTrends/1.png)](https://public.tableau.com/app/profile/john.shotade/viz/UKPayrollTrends20142026/UKPayrollTrends)
 
 ---
 
@@ -47,10 +47,8 @@ Then connect Tableau to `data/region_monthly.csv`.
 ## Project structure
 
 ```
-data/raw/            source CSVs exported from the ONS workbook
-data/region_monthly.csv   cleaned, analysis-ready table
-sql/clean.sql        cleaning and transformation SQL
-images/              dashboard screenshot
+data/raw/       source CSVs exported from the ONS workbook
+sql/clean.sql   cleaning and transformation SQL (creates data/region_monthly.csv)
 ```
 
 ---
